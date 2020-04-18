@@ -1,0 +1,184 @@
+
+body {
+    background-color: #DAF7F6;
+    color:#3b3b3b;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 16px;;
+}
+
+header {
+    background-color:white;
+    text-align: center;
+}
+
+h1 {
+    display:inline-block;
+    margin:0 auto;
+    padding: 40px 0;
+    color:#f16059;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size:48px;
+}
+
+header img {
+    margin-right:15px;
+}
+
+main {
+    width:1000px;
+    margin:auto;
+}
+
+.card {
+    margin: 50px 0;
+    overflow: auto;
+}
+
+#cookies .image {
+    background: url('../img/cookies.jpg');
+    background-size: cover;
+    float:left;
+    width:500px;
+    height:550px;
+}
+
+#pesto .image {
+    background: url('../img/pesto.jpg');
+    background-size: cover;
+    float:left;
+    width:500px;
+    height:550px;
+}
+
+#salad .image {
+    background: url('../img/salad.jpg');
+    background-size: cover;
+    float:left;
+    width:500px;
+    height:550px;
+}
+
+.recipe {
+    float:left;
+    padding:20px; 
+    width:500px;
+    height:550px;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.recipe h2 {
+    font-size: 24px;
+    color:#f16059;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.time {
+    border: #3B3B3B solid 1px;
+    overflow: auto;
+    display:inline-block;
+    margin-bottom: 20px;;
+    line-height:32px;
+    box-sizing: border-box;
+    width: 450px;
+}
+
+.time strong {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.time .prep {
+    float:left;
+    padding-left:6px; 
+    width:33%;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+.time .cook {
+    float:left;
+    padding-left:6px; 
+    width:33%;
+    font-size: 12px;
+    border-right: #3B3B3B solid 1px;
+    border-left: #3B3B3B solid 1px;
+    box-sizing: border-box;
+}
+
+.time .total {
+    float:left;
+    padding-left:6px; 
+    width:33%;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+.time-details {
+    display:inline;
+}
+
+.time img {
+    width:15px;
+    height:auto;
+    margin-right:5px;
+    vertical-align: middle;
+}
+
+.columns {
+    overflow:auto;
+    box-sizing: border-box;
+
+}
+
+.ingredients {
+    float:left;
+    width:220pd;
+}
+
+.ingredients ul {
+    font-size:12px;
+    list-style-type: square;
+    line-height: 20px;
+    padding-left:20px;
+}
+
+.ingredients h3,
+.directions h3 {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    color:#f16059;
+}
+
+.ingredients h3 {
+    border-top: #3B3B3B solid 1px;
+    border-bottom: #3B3B3B solid 1px;
+    width: 190px;
+    padding:5px 0;
+}
+
+.directions h3 {
+    border-top: #3B3B3B solid 1px;
+    border-bottom: #3B3B3B solid 1px;
+    padding:5px 0;
+}
+
+.directions {
+    float:left;
+    width:220px;
+}
+
+.directions ol {
+    font-size: 12px;
+    line-height: 20px;
+    padding-left:20px;
+}
+
+.description {
+    font-size: 12px;
+    margin:0;
+}
